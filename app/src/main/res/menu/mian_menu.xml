@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/default_menu"
+        android:title="默认效果"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/scale_exists"
+        android:title="缩小退出"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/rotate_exists"
+        android:title="翻转退出"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/translateX_exists"
+        android:title="旋转并缩放"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/book_exists"
+        android:title="翻书模式"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+</menu>
